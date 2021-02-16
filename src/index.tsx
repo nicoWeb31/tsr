@@ -1,6 +1,8 @@
 import ReactDom from 'react-dom';
 import Parent from './props/Parent';
 import GuerstList from './state/GuerstList';
+import UserSearch from './state/UserSearch';
+
 
 
 const App = () => {
@@ -10,6 +12,8 @@ const App = () => {
             <Parent/>
             <hr/>
             <GuerstList/>
+            <hr/>
+            <UserSearch/>
         </div>
     )
 }
